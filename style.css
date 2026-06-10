@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: #151515;
+}
+
+/* FOOTER */
+.footer {
+    background: #0d0d0d;
+    padding: 50px 40px;
+    color: #ccc;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-brand {
+    max-width: 300px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.socials {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    background: #222;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-links .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 4px 0;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #222;
+    padding-top: 20px;
+    text-align: center;
+    color: #888;
+}
+
+.status {
+    color: #ff4d4d;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.status-icon {
+    margin-right: 6px;
+}
